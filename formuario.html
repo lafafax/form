@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <header>
+        <img src="/assets/terra.png" alt="">
+    </header>
+    <main>
+        <h1 style="text-transform: uppercase;">Formulario para modelar en nuestra marca</h1>
+        <section>
+            <form action="/destino" method="post">
+                <div class="Datos">
+                    <h3>Datos Personales</h3>
+                    <label for="Nombre">Nombre y apellido</label>
+                    <input type="text" name="Nombre" id="Nombre">
+
+                    <label for="Mail">Email</label>
+                    <input type="email" name="Mail" id="Mail">
+
+                    <label for="fecha">fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+
+                    <label for="DNI">DNI</label>
+                    <input type="number" name="DNI" id="DNI">
+
+                    <label for="telefono">telefono</label>
+                    <input type="number" name="telefono" id="telefono">
+                </div>
+
+                <div class="user">
+                    <h3>¡Necesitamos tus usuarios!</h3>
+                    <label for="usuario2">usuario de Instagram</label>
+                    <input type="text" name="usuario2" id="usuario">
+                </div>
+
+                <div class="Ubi">
+                    <h3>¿De donde sos?</h3>
+                    <label for="">Provincia</label>
+                    <select name="" id="">
+                        <option value="" selected></option>
+                        <option value="BSAS">Buenos aires</option>
+                        <option value="CBA">Cordoba</option>
+                        <option value="Sal">Salta</option>
+                        <option value="JUJ">Jujuy</option>
+                        <option value="TF">Tierra del Fuego</option>
+                        <option value="RN">Rio Negro</option>
+                        <option value="NQN">Neuquen</option>
+                        <option value="MDZ">Mendoza</option>
+                        <option value="LP">La Pampa</option>
+                        <option value="CH">Chaco</option>
+                        <option value="MS">Misiones</option>
+                        <option value="ER">Entre Rios</option>
+                        <option value="TU">Tucuman</option>
+                        <option value="SF">Santa Fe</option>
+                        <option value="CO">Corrientes</option>
+                        <option value="CHU">Chubut</option>
+                        <option value="FOR">Formosa</option>
+                        <option value="SC">Santa Cruz</option>
+                        <option value="SJ">San Juan</option>
+                        <option value="CAT">Catamarca</option>
+                        <option value="SL">San Luis</option>
+                        <option value="SE">Santiago del Estero</option>
+                        <option value="LR">La Rioja</option>
+                    </select>
+                    <input type="text" name="Ciudad" id="Ciudad" placeholder="Ingresar Ciudad">
+                </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>Pelo</h3>
+                <label for="pelo">Color de pelo</label>
+                <select name="pelo" id="pelo">
+                    <option value="" selected></option>
+                    <option value="N">Negro</option>
+                    <option value="C">Castaño</option>
+                    <option value="R">Rubio</option>
+                    <option value="Rj">Rojo</option>
+                    <option value="B">Blanco</option>
+                    <option value="O">Otro</option>
+                </select>
+                <label for="otro">Si es otro, especificar:</label>
+                <input type="text" name="otro" id="otro">
+
+                <h5>Largo del pelo</h5>
+                <label for="largo">Largo</label>
+                <input type="radio" name="largo" id="largo">
+
+                <label for="largo">Medio</label>
+                <input type="radio" name="largo" id="Medio">
+
+                <label for="largo">Corto</label>
+                <input type="radio" name="largo" id="Corto">
+
+                <h4>¿Teñido o decolorado?</h4>
+                <label for="sn">Sí</label>
+                <input type="radio" name="sn" id="si">
+                <label for="sn">No</label>
+                <input type="radio" name="sn" id="no">
+
+            </div>
+
+            <div>
+                <h3>Cara</h3>
+                <label for="ojos">Color de ojos</label>
+                <select name="ojos" id="ojos">
+                    <option value="" selected></option>
+                    <option value="A">Azules</option>
+                    <option value="C">Celestes</option>
+                    <option value="M">Marrones</option>
+                    <option value="V">Verdes</option>
+                </select>
+
+                <h4>Tipo de piel</h4>
+                <label for="tipo">Mixta</label>
+                <input type="radio" name="tipo" id="mixta">
+
+                <label for="tipo">Grasa</label>
+                <input type="radio" name="tipo" id="grasa">
+
+                <label for="tipo">Normal</label>
+                <input type="radio" name="tipo" id="normal">
+
+                <label for="tipo">Seca</label>
+                <input type="radio" name="tipo" id="seca">
+
+                <label for="tipo">Sensible</label>
+                <input type="radio" name="tipo" id="sensible">
+
+                <h4>Piercings o tatuajes</h4>
+                <label for="ss">Si</label>
+                <input type="radio" name="ss" id="si">
+                <label for="ss">No</label>
+                <input type="radio" name="ss" id="no">
+
+                <label for="pt">Si los tiene, especificar</label>
+                <textarea name="pt" id="pt" cols="30" rows="10"></textarea>
+
+                <h4>Alergias</h4>
+                <label for="nn">Si</label>
+                <input type="radio" name="nn" id="si">
+
+                <label for="nn">No</label>
+                <input type="radio" name="nn" id="no">
+
+                <label for="alergias">Si tiene, especificar:</label>
+                <textarea name="alergias" id="alergias" cols="30" rows="10"></textarea>
+            </div>
+        </section>
+        </form>
+
+    </main>
+    <footer>
+        <div class="foot">
+        <h4>¡Gracias por participar!</h4>
+        <p>Seguinos</p>
+        </div>
+        <a href="">
+            <img class="icons" src="/assets/ig.png" alt="">
+        </a>
+    </footer>
+
+</body>
+
+</html>

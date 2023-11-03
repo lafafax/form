@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Oswald:wght@500&family=Pixelify+Sans:wght@600&family=Rubik+Mono+One&family=Titillium+Web:wght@300&display=swap');
+
+main {
+    text-align: center;
+    background-color: #FAF3DD;
+    color: #5E6472;
+    margin-top: 0%;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 35px;
+}
+
+header {
+    background-color: #FFA69E;
+    color: #5E6472;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+footer {
+    background-color: #B8F2E6;
+    color: #5E6472;
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 1px;
+    margin-top: 0%;
+}
+
+img {
+    width: 400px;
+}
+
+div {
+    font-size: 20px;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    background-color: #AED9E0;
+    color: #5E6472;
+    margin-top: 2%;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 2px solid #AED9E0;
+    border-radius: 30px;
+}
+input{
+    border-radius: 15px;
+    background-color: #d8faff;
+    color: rgb(43, 43, 43);
+}
+textarea{
+    background-color: #d8faff;
+    border-radius: 20px;
+}
+.foot{
+    padding: 1px;
+    font-size: 25px;
+}
+.icons{
+    width: 30px;
+}
+select{
+    background-color: #d8faff;
+    border-radius: 15px;
+}
